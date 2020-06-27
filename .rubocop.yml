@@ -6,10 +6,13 @@ Style/MixinUsage:
 
 Style/ClassAndModuleChildren:
   Enabled: false
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*'
 
 AllCops:
   Exclude:
-    - 'db/**/*'
+    - 'db/schema.rb'
     - 'config/**/*'
     - 'script/**/*'
     - 'bin/{rails,rake}'
