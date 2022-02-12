@@ -10,7 +10,7 @@ gem 'bootsnap', '>= 1.1', require: false
 gem 'icalendar', '~> 2.6'
 gem 'ice_cube', '~> 0.16'
 gem 'montrose', '~> 0.11'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 gem 'rails', '~> 6.0'
 gem 'sass-rails', '~> 5.0'
 gem 'sqlite3', '~> 1.4'
